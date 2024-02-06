@@ -14,23 +14,24 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/eT"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="80"
             android:ems="10"
             android:inputType="text"
-            android:text="Name" />
+            android:text="Enter url: " />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            android:text="Button" />
+            android:text="go" />
     </LinearLayout>
 
     <WebView
+        android:id="@+id/wV"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="90" />
