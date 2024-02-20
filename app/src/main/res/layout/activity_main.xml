@@ -19,14 +19,15 @@
             android:layout_height="match_parent"
             android:layout_weight="80"
             android:ems="10"
-            android:inputType="text"
-            android:text="Enter url: " />
+            android:hint="Enter Url: "
+            android:inputType="text" />
 
         <Button
             android:id="@+id/btn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
+            android:onClick="clicked"
             android:text="go" />
     </LinearLayout>
 
